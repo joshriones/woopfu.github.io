@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+:root {
+  --charcoal: #0d1325;
+  --grey: #adbbce;
+  --lightblue: #6ba2ae;
+  --white: #fff;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 130rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.grid--2-cols {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  /* height: 30rem; */
+}
+.grid--3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.8rem;
+}
+.grid--4-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3.2rem;
+}
+.footer {
+  padding: 12.8rem 9.6rem;
+}
